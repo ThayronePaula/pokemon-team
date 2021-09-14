@@ -8,11 +8,13 @@
     "start": "next start"
   },
   "dependencies": {
+    "axios": "latest",
     "next": "latest",
     "next-images": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "styled-components": "latest"
+    "styled-components": "latest",
+    "uuid": "latest"
   },
   "devDependencies": {
     "@types/node": "latest",

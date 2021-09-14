@@ -1,10 +1,10 @@
-import * as S from "./styles";
+import * as S from './styles'
 const Index = () => {
   return (
     <S.Header>
-      <S.Text>Thayrone</S.Text>
       <S.Line />
+      <S.Text>TEAMS</S.Text>
     </S.Header>
-  );
-};
-export default Index;
+  )
+}
+export default Index

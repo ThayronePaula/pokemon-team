@@ -1,17 +1,23 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Header = styled.header`
-  width: 375px;
-  height: 110px;
-  background: var(--bgheader);
-`;
-export const Line = styled.div`
   display: flex;
-  place-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  max-width: 375px;
+  height: 110px;
   margin: 0 auto;
-  width: 300px;
-  border: 1px solid #000;
-`;
+  background: var(--bgheader);
+`
+export const Line = styled.div`
+  margin: 0 auto;
+  width: 80%;
+  border: 1px solid #fff;
+`
 export const Text = styled.h1`
-  font-size: 2rem;
-`;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 800;
+  margin: 1rem 2rem;
+`
