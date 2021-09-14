@@ -7,7 +7,7 @@ import MyTeam from '../MyTeam'
 const Index = () => {
   const [pokemons, setPokemons] = useState<Pokemon>([{}])
   const { data, loading } = useFetch<Colors>(
-    `http://172.28.145.164:3000//api/typescolors`
+    `http://localhost:3000/api/typescolors`
   )
   const getDataColors = useCallback(async () => {
     const response = await axios.get(
